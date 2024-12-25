@@ -1,2 +1,28 @@
 @charset "UTF-8";
-
+.contents{
+ height: 500px; 
+}
+.coffee_img_1{
+ background-image:url("../../image/coffee-background.jpg"); 
+}
+.coffee_img_2{
+  background-image:url("../../image/coffee-background.jpg"); 
+  background-repeat: no-repeat;
+ }
+ .coffee_img_3{
+  background-image:url("../../image/coffee-background.jpg"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .coffee_img_3{
+  background-image:url("../../image/coffee-background.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+ }
+ .coffee_img_4{
+  background-image:url("../../image/coffee-background.jpg"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+ }

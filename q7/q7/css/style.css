@@ -1,1 +1,44 @@
 @charset "UTF-8";
+
+.bubble {
+  width: 500px;
+  background: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.bubble:before,
+.bubble:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  margin: auto;
+}
+
+.bubble:before {
+  bottom: -25px;
+  left: -440px;
+  border-style: solid;
+  border-color: #8f5a0a transparent transparent transparent;
+  border-width: 23px 23px 0 23px;
+}
+
+.bubble:after {
+  bottom: -18px;
+  left: -440px;
+  border-style: solid;
+  border-color: #fad296 transparent transparent transparent;
+  border-width: 18px 18px 0 18px;
+  z-index: 10;
+}

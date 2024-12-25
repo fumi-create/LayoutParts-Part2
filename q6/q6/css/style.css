@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+.nav {
+  background: #388bff;
+}
+
+.logo {
+  margin-top: 30px;
+}
+
+.logo a {
+  color: #f2ff7b;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav_list {
+  display: flex;
+  max-width: 1100px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.ul_list {
+  display: flex;
+}
+
+.ul_list li {
+  padding: 30px;
+}
+
+.ul_list li a {
+  color: #ffffff;
+  text-decoration: none;
+  vertical-align: middle;
+}
